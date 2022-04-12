@@ -75,7 +75,8 @@ footer {
   padding-top: 30px;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 200px; }
+  padding-bottom: 200px;
+  gap: 5px; }
 
 .noticia {
   padding-top: 40px;
@@ -89,3 +90,22 @@ footer {
     height: 150px; }
   .pilotos {
     grid-template-columns: repeat(2, 1fr); } }
+
+header {
+  background: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  width: 100%; }
+  header nav {
+    display: flex;
+    align-items: center;
+    width: 100%; }
+    header nav li {
+      display: inline;
+      text-decoration: none;
+      font-size: 18px;
+      padding-right: 50px;
+      text-align: center; }
+      header nav li .orange {
+        color: orange; }
