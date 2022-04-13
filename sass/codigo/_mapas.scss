@@ -1,0 +1,9 @@
+$display: (
+    // clave - valor
+    color: orange,
+    bg-color: black
+);
+
+header {
+    color: map-get($map:$display , color );
+}

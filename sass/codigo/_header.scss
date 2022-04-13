@@ -1,8 +1,7 @@
 
 header {
     background: black;
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     margin-bottom: 40px;
     width: 100%;
 
